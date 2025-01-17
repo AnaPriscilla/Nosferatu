@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: "IBM Plex Sans", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(10, 9, 9);
+}
+
+.banner {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    margin: 5rem 5rem 1rem 5rem;
+    background-image: url("./img/Nosferatu-2024.webp");
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.titulo, .textual {
+   /* background-color: rgba(46, 6, 6, 0.527);*/
+   background-color: rgba(6, 27, 58, 0.342);
+}
+
+.titulo {
+    color: #fff;
+    text-align: center;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px 0 0 15px;
+}
+
+.titulo img {
+    width: 30rem;
+}
+
+.titulo h1 {
+    font-size: 1.7rem;
+    color: #fff;
+    padding: 1rem 2rem 0 2rem;
+    font-weight: 600;
+}
+
+.titulo h2 {
+    font-size: 2.55rem;
+    font-weight: 500;
+}
+
+.textual {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-right: 1.1rem;
+}
+
+.textual p {
+    max-width: 100%;
+    padding: 1rem 0;
+    border-radius: 5px 0 0 5px;
+    margin: 0 3rem;
+
+}
+
+.textual a {
+    margin-top: 1rem;
+    background-color:  rgba(105, 1, 1, 0.719);
+    padding: 1rem 7rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.textual a:hover {
+    background-color: rgba(151, 0, 0, 0.719);
+}
+
+.menu {
+    box-sizing: border-box;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu ul li {
+    margin: 0 2rem;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.menu span {
+    background-color: rgba(186, 211, 248, 0.719);
+    height: 1.5rem;
+    width: .15rem;
+}
+
+.menu a {
+    color:  rgba(186, 211, 248, 0.719);
+    text-decoration: none;
+}
+
+.textual span {
+    font-size: 1.35rem;
+}
+
+.menu a:hover {
+    color:  rgba(235, 114, 114, 0.61);
+}
