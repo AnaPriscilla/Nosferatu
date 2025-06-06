@@ -1,10 +1,6 @@
 
 # Projeto Tela Interativa com Banner e Modal
 
-Este projeto é uma página web criada utilizando **HTML**, **CSS** e **JavaScript** (para os ícones e funcionalidades interativas).
-
----
-
 ## Descrição
 
 Trata-se de uma tela com as seguintes funcionalidades:
@@ -24,7 +20,7 @@ Trata-se de uma tela com as seguintes funcionalidades:
 
 ---
 
-## Imagem da Interface
+## Desktop e Mobile
 
 ![Interface do projeto](/img/interface.png)
 
