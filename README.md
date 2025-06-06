@@ -27,3 +27,10 @@ Trata-se de uma tela com as seguintes funcionalidades:
 ## Imagem da Interface
 
 ![Interface do projeto](/img/interface.png)
+
+
+## Como usar e utilizar o código
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
