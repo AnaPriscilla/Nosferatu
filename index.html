@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
+    <header class="principal">
         <article class="banner">
             <section class="titulo">
                <h1>- A história do filme -</h1>
@@ -18,24 +18,34 @@
                 <p>
                     <span>Sinopse:</span> O corretor de imóveis Hutter precisa vender um castelo cujo proprietário é o excêntrico conde Graf Orlock. O conde, na verdade, é um vampiro milenar que espalha o terror na região de Bremen, na Alemanha e se interessa por Ellen, a mulher de Hutter.
                 </p>
-                <a href="/">Trailer</a>
+                <a href="#" id="trailer-link">Trailer</a>
+
+            <div id="trailer-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <iframe id="trailer-video" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
             </section>
 
         </article>
         <nav class="menu">
             <ul>
+                <li><a href="">A história</a></li>
+                <span></span>
                 <li><a href="">Nosferatu 1922</a></li>
                 <span></span>
                 <li><a href="">Nosferatu 1979</a></li>
                 <span></span>
                 <li><a href="">Dracula de Bram Stoker - 1992</a></li>
                 <span></span>
-                <li><a href="">A história</a></li>
-                <span></span>
                 <li><a href="">Livros</a></li>
             </ul>
         </nav>
     </header>
- 
+
+    <footer><p>Desenvolvido por Ana Priscilla F.</p></footer>
+    
+ <script src="script.js"></script>
 </body>
 </html>
